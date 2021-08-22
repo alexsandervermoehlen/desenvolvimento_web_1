@@ -1,0 +1,42 @@
+#nome
+{
+    background-color: yellow;
+    border: dashed;
+    border-color: red;
+} 
+
+#email
+{
+    background-color: yellow;
+    margin-top: 10px; 
+    border: dashed;
+    border-color: red;
+}
+
+#checkbox
+{
+    margin-top: 10px;
+}
+
+
+.cadastro
+{
+    margin-top: 10px;
+    width: 280px;
+    height: 150px;
+}
+
+
+#salvar{ text-align: center }
+.Salvardados{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #eee;
+    font-size: 18px;
+    color: blue;
+} 
+.cadastro {
+    border-color: red;
+}

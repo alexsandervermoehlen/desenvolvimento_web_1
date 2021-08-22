@@ -5,24 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="javascript/prefixfree.min.js"></script>
 </head>
 <body>
     <form> 
-        <div>
-            <label for="text">Nome</label> 
-            <input type="text">
-        </div>
-        <div>
-            <label for="text">E-mail</label>
-            <input type="email">
-        </div>
-        <div>
-            <input type="checkbox">
-            <label for="text">Quer receber boletins</label>
-        </div>
-        <div>
-            <input type="submit" value="Enviar">
-        </div>
+        <fieldset>
+            
+        </fieldset>
+        <fieldset class="cadastro">
+            <div>
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div is> 
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label>Quer receber boletins</label>
+            </div> 
+
+            <div id="salvar">
+                <input  type="submit" name="salvar" value="Salvar" class="Salvardados"></input>
+            </div>
+        </fieldset>
     </form>
 </body>
 </html>
