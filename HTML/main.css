@@ -3,11 +3,12 @@
     background-color: yellow;
     border: dashed;
     border-color: red;
+    width: 70%;
 } 
 
 #email
 {
-    background-color: yellow;
+    background-color: #ffff00;
     margin-top: 10px; 
     border: dashed;
     border-color: red;
@@ -16,14 +17,29 @@
 #checkbox
 {
     margin-top: 10px;
+    margin-right: 17%;
 }
 
+.checkbox
+{
+    color: #858495;
+
+}
+
+.cabcadastro
+{
+    width: 500px;
+    background-color: #858495; 
+    color: #eee;
+    border-color: black;
+    
+}
 
 .cadastro
 {
-    margin-top: 10px;
-    width: 280px;
-    height: 150px;
+    margin-top: 0px;
+    width: 500px;
+    height: 200px;
 }
 
 
@@ -31,12 +47,29 @@
 .Salvardados{
     margin-top: 10px;
     text-align: center;
-    border: 1px solid #eee;
+    border: 1px solid #d9d7d4;
     border-radius: 6px;
-    background-color: #eee;
+    background-color: #ffffff;
     font-size: 18px;
     color: blue;
 } 
 .cadastro {
-    border-color: red;
+    border-color: black;
+}
+
+.cliente
+{
+    color: #746b9a;
+}
+
+.nome1
+{
+    margin-right: 11%;
+    color: #858495;
+}
+
+.email1
+{ 
+    margin-right: 10%;
+    color: #858495;
 }
